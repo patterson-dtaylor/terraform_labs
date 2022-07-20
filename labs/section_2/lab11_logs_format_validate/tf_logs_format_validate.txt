@@ -1,0 +1,21 @@
+#Terraform Debugging, Formatting, and Validating
+
+- Debugging:
+    - You can set the environment variable TF_LOG= to:
+        - TRACE (Most verbose)
+        - DEBUG
+        - INFO
+        - WARN
+        - ERROR
+    - This will show logs when you run <terraform plan>
+
+    - You can also set the a path to out put to a log file with:
+        - TF_LOG_PATH=
+
+- Formatting
+    - You can format Terraform configuration files in the CLI with:
+        - <terraform ftm>
+
+- Validating
+    - You can validate Terrafrom configuration files before running <terraform plan> with:
+        - <terraform validate>

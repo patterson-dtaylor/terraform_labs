@@ -1,0 +1,10 @@
+Terraform Taint
+
+- You can use the cli terraform taint command to mark resources that have been modified
+manually.
+
+- If a resource has been tainted, then the next terraform apply will destory and recreate
+the resource.
+
+- You must make sure that any resource that rely on the changes made to the tainted resource
+will also be affected.

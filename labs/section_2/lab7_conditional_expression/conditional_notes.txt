@@ -1,0 +1,1 @@
+You can set the variable in the CLI or create a terraform.tfvars file and set it there.

@@ -1,0 +1,7 @@
+Load Order and Semantics
+
+- Load Order:
+    - Terraform loads documents within a directory alphabetically.
+
+- Semantics
+    - In production code, it is best practice to break up the configuration across multiple files.

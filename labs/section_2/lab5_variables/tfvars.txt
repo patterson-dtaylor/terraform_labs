@@ -1,0 +1,6 @@
+This is what would go into a .tfvars file to concatenate the vars.tf file.
+
+vpn_ip = "160.54.67.80/32"
+elb_name = "lab5-tf-elb"
+az = ["us-east-1a", "us-east-1b", "us-east-1c"]
+timeout = 400
